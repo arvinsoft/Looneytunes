@@ -1,0 +1,32 @@
+    Public Class Player
+        {
+            int X;
+            int Y;
+            int Width;
+            int Height;
+
+            // Getters And Setters
+        }
+
+        Public Class Enemy
+        {
+            int X;
+            int Y;
+            int Width;
+            int Height;
+
+           // Getters And Setters
+       }
+                foreach(Enemy e In EnemyCollection)
+        {
+            Rectangle r = New Rectangle(e.X, e.Y, e.Width, e.Height);
+            Rectangle p = New Rectangle(player.X, player.Y, player.Width, player.Height);
+
+            // Assuming there Is an intersect method, otherwise just handcompare the values
+            If (r.Intersects(p)) Then
+                        {
+               // A Collision!
+               // we know which enemy (e), so we can call e.DoCollision();
+               e.DoCollision();
+            }
+       }

@@ -1,0 +1,4 @@
+1. Click the bunny in the middle and drag the mouse over the carrot appearing in the screen and catch as many carrot as you can. 
+2. Catching heart symbol pause the enemy for 5 seconds(configurable). 3. Catch as many carrots without hitting the foxes and cats. 
+4. The playable area will decrease overtime. 
+5. The starting playable area can be configurable in the settings.
